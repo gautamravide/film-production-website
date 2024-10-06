@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Production Company</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Creative Vision</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Hero Section with Parallax Effect -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Bringing Stories to Life</h1>
+                <p>Film Production and Creative Visuals</p>
+                <a href="#portfolio" class="cta">View Our Work</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate filmmakers, storytellers, and creators. Our mission is to bring bold visions to life with stunning visuals and compelling stories.</p>
+        </div>
+    </section>
+
+    <!-- Services Section with Cards -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Production</h3>
+                    <p>We create captivating visuals for every medium, from commercials to feature films.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-pen-alt"></i>
+                    <h3>Scriptwriting</h3>
+                    <p>Our team crafts compelling narratives that capture the imagination and drive the story forward.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-film"></i>
+                    <h3>Post Production</h3>
+                    <p>Editing, sound design, and visual effects to deliver a polished final product.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Masonry Layout -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Film production and editing for commercial ad campaigns.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Award-winning short film that captured audience attention.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Documentary storytelling with breathtaking cinematography.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Creative Vision Film Productions. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
